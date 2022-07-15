@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Old Standard TT', serif;
+}
+
+body
+{
+    height: 100%;
+}
+
+.background
+{
+    border:4px solid rgb(1, 1, 1);
+    height:98.3vh;
+    width:99.3%;
+    background-image: url('https://img.freepik.com/free-vector/realistic-studio-lights-empty-background-design_1017-27233.jpg?w=2000');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container
+{
+    background-color: rgb(255, 253, 196);
+    border-radius: 20px;
+    padding:15px;
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    margin-left:424px;
+    height:300px;
+    width:300px;
+    text-align: center;
+    margin-top: 170px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h1
+{
+    text-align: center;
+    margin-bottom:45px;
+    color: blue;
+}
+
+#count
+{
+    font-size: 60px;
+    margin-bottom:40px;
+}
+
+.row
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+#b1,#b2,#b3
+{
+    font-size: 20px;
+    padding:6px;
+    border-radius: 5px;
+}
+#b1
+{
+    background-color: green;
+}
+#b1:hover
+{
+    background-color: rgb(13, 226, 13);
+    transform: scale(1.1);
+}
+#b2
+{
+    background-color: rgb(205, 205, 7);
+}
+#b2:hover
+{
+    background-color: yellow;
+    transform: scale(1.1);
+}
+#b3
+{
+    background-color: red;
+}
+#b3:hover
+{
+    background-color: rgb(240, 100, 100);
+    transform: scale(1.1);
+}
+
+#history
+{
+    display: flex;
+    padding-left: 20px;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
