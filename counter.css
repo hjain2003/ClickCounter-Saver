@@ -1,52 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
 
 *{
-    margin:0px;
-    padding:0px;
+    margin:0rem;
+    padding:0rem;
     font-family: 'Old Standard TT', serif;
 }
 
+html
+{
+    font-size: 62.5%;
+}
 body
 {
     height: 100%;
 }
 
-.background
+body
 {
-    border:4px solid rgb(1, 1, 1);
-    height:98.3vh;
-    width:99.3%;
     background-image: url('https://img.freepik.com/free-vector/realistic-studio-lights-empty-background-design_1017-27233.jpg?w=2000');
     background-size: cover;
     background-repeat: no-repeat;
+
 }
+
 .container
 {
     background-color: rgb(255, 253, 196);
-    border-radius: 20px;
-    padding:15px;
+    border-radius: 2rem;
+    padding:1.5rem;
+    margin: auto;
     display:flex;
     flex-direction: column;
-    margin: auto;
-    margin-left:424px;
-    height:300px;
-    width:300px;
+    /* margin-left:424rem; */
+    height:30rem;
+    width:30rem;
     text-align: center;
-    margin-top: 170px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 17rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0rem .5rem 1.5rem;
 }
 
 h1
 {
+    font-size: 3.6rem;
     text-align: center;
-    margin-bottom:45px;
+    margin-bottom:4.5rem;
     color: blue;
 }
 
 #count
 {
-    font-size: 60px;
-    margin-bottom:40px;
+    font-size: 6.0rem;
+    margin-bottom:4.0rem;
 }
 
 .row
@@ -58,9 +62,9 @@ h1
 
 #b1,#b2,#b3
 {
-    font-size: 20px;
-    padding:6px;
-    border-radius: 5px;
+    font-size: 2.0rem;
+    padding:.6rem;
+    border-radius: .5rem;
 }
 #b1
 {
@@ -93,8 +97,34 @@ h1
 #history
 {
     display: flex;
-    padding-left: 20px;
-    margin-top: 30px;
-    font-size: 17px;
+    padding-left: 2rem;
+    margin-top: 3rem;
+    font-size: 1.7rem;
     font-weight: bold;
+}
+
+
+
+@media (max-width:750px)
+{
+    html
+    {
+        font-size: 50%;
+    }
+}
+
+@media (max-width:590px)
+{
+    html
+    {
+        font-size: 45%;
+    }
+}
+
+@media (max-width:530px)
+{
+    html
+    {
+        font-size: 30%;
+    }
 }
